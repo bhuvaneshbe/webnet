@@ -1,0 +1,47 @@
+ h1{
+  background-color:yellow;
+  margin:10px 10px 10px 10px;/* move header to different position like    top right bottom left*/
+} 
+p{
+  padding-left:5px;
+  padding-right:2px;
+  padding-left:2px;
+}
+body{
+border-style:solid;
+border-width:3px;
+border-color:blue;
+background-color:rbg(58,220,168);
+}
+#green{
+color:yellow;
+background-color:black;
+}
+#blue{
+color:orang;
+
+}
+#green{
+
+}
+#yellow{
+  color:yellow;
+  background-color:black;
+}
+#dark{
+   color:yellow;
+  background-color:black;
+
+}
+#orang{
+ color:yellow;
+  background-color:black;
+}
+#light{
+ color:yellow;
+  background-color:black;
+  }
+#ligth 1{
+color:yellow;
+  background-color:black;
+}

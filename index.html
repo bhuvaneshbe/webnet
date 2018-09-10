@@ -1,0 +1,117 @@
+
+<html>
+<head>
+<title>Projects </title>
+<link rel="stylesheet" href="index2.css"/>
+</head>
+<body>
+<strong><h1><font color="red">SMART HORTICULTURE USING IMAGE PROCESSING AND INTERNET OF THINGS</font></h1></strong>
+<hr/>
+<h2>
+<strong> <b><u><font color="black"> INTRODUCTION</font></u></b> </strong>
+</h2>
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp; The history of <strong>Agricultur in India</strong> dates back to Indus valley civilization era. Today, India rank second worldwide in farm output.
+The economic contribution of agriculture to India's GDP is steadily declining with the country's broad-based economic growth. Still, agriculture is demographically the broadest economic sector and plays a significant role in the overall-economic fabric of india.
+</p>
+
+<p>India is agriculture country. More than seventy per cent of population depend on agriculture. this, our economy is majority depend on agriculture. thus development in this field will highly contribute to economic welfare. Technology is playing it role
+in bringing about change and progress in many section. Agriculture is one such sector, which when collaborated with technology such internet of things
+combined with image processing can result into cheap yet effective methods of agriculture, which in term will give rise to high quality produce.
+</p>
+<p>We aim is reducing crop failure by letting the farmers know what environmental condition such as temperature,pH,soil moisture is most suitable for crop and what are effects of the fertilizer used. This is done by constantly monitoring the crops using an IoT based circuit that includes Raspberry pi, sensors for the different environmental factors and a camera that will capture images of the crops at regular intervals. The images captured will be processed to recognize the various morphological changes occurring due to different environmental factors. If there is any change that corresponds to the deterioration in the plants growth, the farmer is immediately informed. Early diagnosis will thus help in taking the necessary actions to increase the produce and reduce failure of crops. The basic idea is to combine the concepts of Internet of things along with the techniques of image processing to arrive at accurate results. It is known that temperature, humidity, soil moisture and light intensity lead to subtle to drastic changes in the health of the plant. The morphological changes that a plant undergoes is captured and analyzed on the MATLAB software using the algorithms to arrive at the result. The whole process of capturing the image along with the requisite environmental factors are done at once using the IoT sensing network. The algorithm thus analyses the given image and arrives at the conclusion which refers to the specific problem that affected the given plant. 
+This is done by constantly monitoring the crops using an IoT based circuit that includes Raspberry pi, sensors for the different environmental factors and a camera that will capture images of the crops at regular intervals. The images captured will be processed to recognize the various morphological changes occurring due to different environmental factors. If there is any change that corresponds to the deterioration in the plants growth, the farmer is immediately informed. Early diagnosis will thus help in taking the necessary actions to increase the produce and reduce failure of crops. The basic idea is to combine the concepts of Internet of things along with the techniques of image processing to arrive at accurate results. It is known that temperature, humidity, soil moisture and light intensity lead to subtle to drastic changes in the health of the plant. The morphological changes that a plant undergoes is captured and analyzed on the MATLAB software using the algorithms to arrive at the result. The whole process of capturing the image along with the requisite environmental factors are done at once using the IoT sensing network. The algorithm thus analyses the given image and arrives at the conclusion which refers to the specific problem that affected the given plant. 
+</p>
+<h2><strong><u>OBJECTIVE</u></strong></h2> 
+<p>
+  <ol>
+      <li>Implementation of new technologies in the field of agriculture.</li>
+	  <li>Reduce time consuming supervision of large plots.</li>
+	  <li>Increasing efficiency and obtain greater yields.</li>
+	  <li>Automating tasks which requires careful observation. (Ex: leaf analysis).</li>
+	  <li>Analysis of large plots by collecting environmental factors that curbs the growth of plants.</li>
+  </ol>
+</p> 
+ <p>
+ <h2><u>PRESENT WORK </u></h2>
+ <P>
+ &nbsp;The present work revolves around the center piece i.e the Raspberry pi (3B) model which is interfaced to all the sensors (temperature, soil moisture and pH) with the inclusion of a webcam that is in turn 
+ connected to the MATLAB software to process the leaf diseases. All the sensed parameters are subjected to external environmental factors that affect the plant growth. Certain threshold levels are set according to the 
+ required content of soil moisture which in turn switches the relay resulting in turning ON/OFF the water pump. If the water pump is turned ON, it means that plant is subjected to dryness. This makes the webcam to acquire the image of the plant under supervision. Hence the image realizes the condition of the plant by processing it through various algorithms. Thus results are obtaining whether the plant is affected by leaf diseases or not.
+ </p>
+ <center><img src="agriculture.jpg" width="800" height="400"></center>
+      <center> <h5><strong><p align="centre">1.Block diagram of proposal system</strong></h5></center>
+	   <h2><strong><u>RESULT</u></STRONG></h2>
+	   <hr/>
+<p id=green> 
+The project depicts how IoT and image processing can be used to avoid a lot of strain and hard work that goes in supervising a large plot of land as our farmers cannot be on the field 24x7. There is a high ratio of automation and cybernation involved thus making it extremely compatible to this growing environment in terms of technology. 
+</p>
+<center><img src="circiut.jpg" align="middle" width="500"height="300"></center> 
+<center><h5><strong>2.working model</strong></h5></center>
+<font color=voilet size=5>The results thus obtained are:</font><br/> 
+<p id=yellow>
+Soil moisture, temperature and pH sensors that were interfaced to the raspberry pi model provide results with an accuracy of 90% and their values differing by a scale of ±1/2. Each component gives accurate values that suit the environment and produces definite threshold to switch the water pump.<br/>
+The soil moisture sensor produces values ranging from 0-1024 where any values below 250 depicts a dry environment and all the values above results in a lightly dry environment. Values above 800 results in a wet soil environment.<br/>
+</p>
+<p><br/>
+<center><img src="soil moisture.jpg" width="500" height="300"></center>
+<center><h5><strong>3.Measuring of soil moisture</strong></h5></center>
+<p id=green >
+The pH ranges from a scale of 1-14 with values ranging below 7 resulting in an acidic status of soil and values above 7 providing a basic status.
+</p>
+<p>
+<center><img src="pH sensor.jpg" width="500" height="300"></center>
+<center><h5><strong>4.measuring pH of soil</strong></h5></center>
+</p>
+<p id=dark>
+The temperature sensor provides values with less accuracy but provides results close to the exact value. The LM35 component makes use of a thermistor to sense temperature by converting them into electrical outputs. <br/>
+</p>
+<p id=orang>
+The water pump turns ON/OFF based on the threshold value set by the soil moisture and temperature sensor. It acts like an exhaust pump by pumping water to the plant that is being supervised.<br/>
+<center><img src="motor.jpg" width="500" height="300"></center>
+<center><h5><strong>5.Connection of motor</strong></h5></center>
+</p>
+<p id =light>
+The leaf disease detection part consists of acquiring the image, extracting features and comparing it with the database that was set before the image was acquired.<br/>
+<p>
+<font size="3"><strong>Some of the features extracted are shown below: </strong></font></br>
+<center><img src="color image.jpg"width="500" height="300"><img src="gray scale.jpg" width="500" height="300"></center> <br>
+<center><img src="adaptive.jpg" width="500" height="300"></center>
+<center><h5><strong>6.Capture,gray scale,adaptive leaf</strong></h5></center>
+</p>
+<p id=ligth1  >
+After getting sensed data and type of leaf disease another important thing is sending these sensed data and image of captured leaf through IoT. The sensed data along with water pump status is sent to farmer through SMS by means of Twilio web services and image of captured leaf is sent to Gmail of farmer.</br>
+<center><img src="result image.jpg" width="800" height="300"></center>
+<center><h5><strong>7.Result on MATLAB based on type of leaf disease.</strong></h5></center> 
+</p>
+<p><br/>
+<center><img src="mail.png" width="500" height="400"><img src="mail2.png" width="500" height="400"></center>
+<center><h5><strong>8.SMS and Mail sent to farmer mobile</strong></h5></center>
+<hr/>
+<p>
+<h2><strong><u>CONCLUSION</u></strong></h2>
+&nbsp;&nbsp;Our project as a whole provides a combination of both hardware and software interconnection. All the sensor data are processed through the raspberry pi module and is interconnected through an IoT module for the image processing part. It provides the necessary processing by using all MATLAB features to extract various image processing dataset. Threshold levels are maintained to turn ON/OFF the water pump based on the moisture level. All the features and the sensed parameters including the status of the water pump are sent to the farmer through the Twilio website depicting the IoT field incorporated in our field. Thus by further levels of integration and automation this project would serve as a very innovative product to avoid supervised and time consuming activities done by our farmers.<br> 
+</p>
+<p>
+<h3><strong><u><font color="sky blue">FUTURE SCOPE</font></u></strong></h3>
+<p>
+The paper realizes a series of features that effects the plant growth and produces results by figuring out how much the temperature, pH and soil moisture values have been changed.</br>
+  <ul>
+      <li>Further improvements can be developed to sense parameters like light sensitivity, humidity and rainfall detection.</li>
+	  <li>pH value thus obtained can be used to provide information about the various seeds that can provide great yield under these conditions.</li>
+	  <li>Accuracy of each model needs to improve and the external factors that affect the output can be minimized.</li>
+   </ul>
+</p>
+<p>
+The image processing part scans the leaf image for a particular disease detection and thereby alarming the farmer about the circumstances.</br>
+   <ul>
+       <li>Image captured can be made to provide good clarity by using camera's with higher resolution.</li>
+	   <li>Instead of scanning a particular leaf, techniques can be developed to scan the whole plant thereby providing very high automation.</li>
+	   <li>A 360 degree camera can be used to scan a whole field thereby capturing all the images and providing greater range of image acquisition</li>
+   </ul><br/>
+The IOT part can be further improved by developing an app to sense, acquire and check the status the water pump. This can result in very high automation hence giving all the access the farmer needs in his fingertips.<br/>
+</p>
+</p>
+  
+ </body>
+</html>
